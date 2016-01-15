@@ -10,7 +10,7 @@ function rdWidgetFooter() {
     var directive = {
         requires: '^rdWidget',
         transclude: true,
-        template: '<div class="widget-footer" ng-transclude></div>',
+        templateUrl: 'templates/directives/rd_widget_footer.html',
         restrict: 'E'
     };
     return directive;

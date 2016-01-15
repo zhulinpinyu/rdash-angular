@@ -10,7 +10,7 @@ angular
 function rdLoading() {
     var directive = {
         restrict: 'AE',
-        template: '<div class="loading"><div class="double-bounce1"></div><div class="double-bounce2"></div></div>'
+        templateUrl: 'templates/directives/rd_loading.html'
     };
     return directive;
 };

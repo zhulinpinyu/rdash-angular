@@ -9,7 +9,7 @@ angular
 function rdWidget() {
     var directive = {
         transclude: true,
-        template: '<div class="widget" ng-transclude></div>',
+        templateUrl: 'templates/directives/rd_widget.html',
         restrict: 'EA'
     };
     return directive;
